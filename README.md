@@ -1,6 +1,5 @@
-## Smart waiting list app
-- A mobile app that allows users to have quick and easy access to joining virtual queues, and getting alerts when their turn is approaching.
-
+## REACT NATIVE FIREBASE STARTER KIT (CLEAN ARCHITECTURE)
+- 
 
 
 ## Stack used 🚀
@@ -9,25 +8,23 @@
 - Firebase
 - Firestore database
 - Tailwind CSS
-- Nodejs
 
-## Figma link 💅
-https://www.figma.com/file/OrH71Gg4V5GxxisVhoS8DT/SmartWaiting-List?t=YIkte4bdZv61DlTM-1
+
 
 ## How to start
 - First clone the repo
 - Open cmd or vscode terminal and run to clone repo locally
 
 ```sh
- git clone https://github.com/Sonnysam/smart-waiting-list-app.git
+ git clone https://github.com/Sonnysam/Rnative-firebase-starter.git
 ```
-- Next check if you're in the right directory *[smart-waiting-list]*
+- Next check if you're in the right directory *[Rnative-firebase-starter]*
 ```sh
  ls 
 ```
 - Next cd into the directory 
 ```sh
-  cd .\smart-waiting-list\
+  cd .\Rnative-firebase-starter\
 ```
 - Install node_modules and other required dependencies by running
 ```sh
@@ -43,9 +40,8 @@ OR
   npx expo start
 ```
 
-
-## Demo of app
-
+### Author 
+- Developed with 💖 by Samuel Agbenyo 
 
 
 
