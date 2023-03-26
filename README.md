@@ -1,6 +1,4 @@
-## REACT NATIVE FIREBASE STARTER KIT (CLEAN ARCHITECTURE)
-- 
-
+## REACT NATIVE FIREBASE STARTER KIT (Built with clean react native ARCHITECTURE)
 
 ## Stack used 🚀
 
