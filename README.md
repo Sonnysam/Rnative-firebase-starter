@@ -8,6 +8,7 @@
 - Firebase
 - Firestore database
 - Tailwind CSS
+- Redux
 
 
 
@@ -39,6 +40,21 @@ OR
 ```sh
   npx expo start
 ```
+
+- Create a new firebase project and copy paste config keys in the firebase file which can be found in the firebase folder
+
+- Reload application and code!!
+
+- If you face issues, 
+```sh
+  npm i
+```
+OR 
+- If you're using yarn run
+```sh
+  yarn install
+```
+and reload the app again!
 
 ### Author 
 - Developed with 💖 by Samuel Agbenyo 
