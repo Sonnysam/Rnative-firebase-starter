@@ -4,10 +4,10 @@
     "slug": "srm-pay",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logol.png",
+    "icon": "./assets/images/profile.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/logow.png",
+      "image": "./assets/images/profile.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffff"
     },
@@ -15,22 +15,22 @@
       [
         "expo-notifications",
         {
-          "icon": "./assets/logow.png",
+          "icon": "./assets/images/profile.png",
           "color": "#ffffff",
           "sounds": [
-            "./assets/notification-sound.wav",
-            "./assets/notification-sound-other.wav"
+            "./assets/sounds/notification-sound.wav",
+            "./assets/sounds/notification-sound-other.wav"
           ]
         }
       ],
       [
         "expo-notifications",
         {
-          "icon": "./assets/logol.png",
+          "icon": "./assets/images/profile.png",
           "color": "#ffffff",
           "sounds": [
-            "./assets/notification-sound.wav",
-            "./assets/notification-sound-other.wav"
+            "./assets/sounds/notification-sound.wav",
+            "./assets/sounds/notification-sound-other.wav"
           ]
         }
       ]
@@ -44,18 +44,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logol.png",
+        "foregroundImage": "./assets/images/profile.png",
         "backgroundColor": "#ffff"
       },
       "package": "com.sonny067.srmpay"
     },
     "web": {
-      "favicon": "./assets/logol.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "e3a64098-ab63-48b0-8dfd-37ab912db2ab"
-      }
+      "favicon": "./assets/images/profile.png"
     }
   }
 }
