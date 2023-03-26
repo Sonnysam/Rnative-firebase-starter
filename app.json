@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "SRM Pay",
+    "slug": "srm-pay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logol.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logow.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffff"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/logow.png",
+          "color": "#ffffff",
+          "sounds": [
+            "./assets/notification-sound.wav",
+            "./assets/notification-sound-other.wav"
+          ]
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/logol.png",
+          "color": "#ffffff",
+          "sounds": [
+            "./assets/notification-sound.wav",
+            "./assets/notification-sound-other.wav"
+          ]
+        }
+      ]
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logol.png",
+        "backgroundColor": "#ffff"
+      },
+      "package": "com.sonny067.srmpay"
+    },
+    "web": {
+      "favicon": "./assets/logol.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e3a64098-ab63-48b0-8dfd-37ab912db2ab"
+      }
+    }
+  }
+}
